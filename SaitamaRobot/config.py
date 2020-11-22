@@ -15,14 +15,14 @@ class Config(object):
     # REQUIRED
     #Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 123456  # integer value, dont use ""
-    API_HASH = "awoo"
-    TOKEN = "BOT_TOKEN"  #This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 792109647  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "Sawada"
-    SUPPORT_CHAT = 'OnePunchSupport'  #Your own group for support, do not add the @
-    JOIN_LOGGER = -1001253661229  #Prints any new group the bot is added to, prints just the name and ID.
-    EVENT_LOGS = -1001190806654  #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
+    API_ID = 2526912  # integer value, dont use ""
+    API_HASH = "e13cdbc90345105474a0889a66b94441"
+    TOKEN = "1361559412:AAEmf41s2TslTvldbAQRlxubHeIQ2g4UGgs"  #This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 714651075  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "jackcooleewro"
+    SUPPORT_CHAT = 'DrSinsSupport'  #Your own group for support, do not add the @
+    JOIN_LOGGER = -403886726  #Prints any new group the bot is added to, prints just the name and ID.
+    EVENT_LOGS = -403886726  #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     #RECOMMENDED
     SQLALCHEMY_DATABASE_URI = 'something://somewhat:user@hosturl:port/databasename'  # needed for any database modules
@@ -52,10 +52,10 @@ class Config(object):
     WORKERS = 8  # Number of subthreads to use. Set as number of threads your processor uses
     BAN_STICKER = ''  # banhammer marie sticker id, the bot will send this sticker before banning or kicking a user in chat.
     ALLOW_EXCL = True  # Allow ! commands as well as / (Leave this to true so that blacklist can work)
-    CASH_API_KEY = 'awoo'  # Get your API key from https://www.alphavantage.co/support/#api-key
-    TIME_API_KEY = 'awoo'  # Get your API key from https://timezonedb.com/api
-    WALL_API = 'awoo'  #For wallpapers, get one from https://wall.alphacoders.com/api.php
-    AI_API_KEY = 'awoo'  #For chatbot, get one from https://coffeehouse.intellivoid.net/dashboard
+    CASH_API_KEY = 'X5V7UUSQP4SHDCG3'  # Get your API key from https://www.alphavantage.co/support/#api-key
+    TIME_API_KEY = 'FR4XK5G5ZM40'  # Get your API key from https://timezonedb.com/api
+    WALL_API = '8a77e6db11cb1754731885ff8402d7c2'  #For wallpapers, get one from https://wall.alphacoders.com/api.php
+    AI_API_KEY = '3f11c2efdd6123f2187a313a5baf89834682ef80b73063a151f73b64ef4ee741d4c89f0df5aa88ad6d355c56d6c2b8991234fd05692eadfc74a539c5eb303247'  #For chatbot, get one from https://coffeehouse.intellivoid.net/dashboard
     BL_CHATS = []  # List of groups that you want blacklisted.
     SPAMMERS = None
 
