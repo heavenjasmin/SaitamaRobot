@@ -1,6 +1,6 @@
 {
-      "name": "SaitamaRobot",
-      "description": "An Anime themed Telegram group management bot.",
+      "name": "JohnnySins",
+      "description": "An top1 Porn Star Telegram group management bot.",
       "keywords": [
          "telegram",
          "anime",
@@ -8,7 +8,7 @@
          "manager",
          "Saitama"
       ],   
-   "repository": "https://github.com/AnimeKaizoku/SaitamaRobot",
+   "repository": "https://github.com/heavenjasmin/DrSins",
    "addons": [
       {
          "options": {
@@ -21,66 +21,66 @@
       "TOKEN": {
          "description": "Your bot token. Get one from @BotFather duh",
          "required": true,
-         "value": ""
+         "value": "1361559412:AAEmf41s2TslTvldbAQRlxubHeIQ2g4UGgs"
       },
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "2526912"
       },
       "API_HASH": {
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "e13cdbc90345105474a0889a66b94441"
       },    
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
          "required": false,
-         "value": "sqldbtype://username:pw@hostname:port/db_name"
+         "value": ""
       },      
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "792109647"
+         "value": "714651075"
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "Sawada"
+         "value": "jackcooleewro"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to saitama support than consider you made an enemy.",
          "required": true,
-         "value": "MyAwesomeSupportGroupGoesHere"
+         "value": "DrSinsSupport"
       },
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": "-123456798"
+         "value": "-403886726"
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": "-123456798"
+         "value": "-403886726"
       },      
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
          "required": true,
-         "value": "-xyz"
+         "value": "X5V7UUSQP4SHDCG3"
       },
       "TIME_API_KEY": {
          "description": "Required for timezone information. Get yours from https://timezonedb.com/api",
          "required": true,
-         "value": "-xyz"
+         "value": "FR4XK5G5ZM40"
       },
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Saitama support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "660565862 459034222 189005567 346981140 367222759"
+         "value": "714651075"
       },
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
          "required": false,
-         "value": ""
+         "value": "ONLozbn~SUev62DBi~rEL2BdQ0szD~4J8Su1DiYLfk7VVK5shE_K_G8tY03JM4iI"
       }, 
       "STRICT_GBAN": {
          "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
@@ -89,12 +89,12 @@
       "DRAGONS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": "459034222 189005567 660565862 346981140 367222759"
+         "value": ""
       },
       "DEMONS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": "615304572"
+         "value": ""
       },
       "TIGERS": {
          "description": "A space separated list of user IDs who you wanna assign as tiger users.",
@@ -142,7 +142,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://www.paypal.me/PaulSonOfLars"
+         "value": "pornhub.com"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
@@ -151,7 +151,7 @@
       "AI_API_KEY": {
       "description": "Make your bot talk using Intellivoid's chatbot API, get your key from https://coffeehouse.intellivoid.net/",
          "required": false,
-         "value": ""
+         "value": "3f11c2efdd6123f2187a313a5baf89834682ef80b73063a151f73b64ef4ee741d4c89f0df5aa88ad6d355c56d6c2b8991234fd05692eadfc74a539c5eb303247"
    },      
       "BAN_STICKER": {
          "description": "ID of the sticker you want to use when banning people.",
